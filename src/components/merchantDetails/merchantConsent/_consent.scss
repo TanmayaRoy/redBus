@@ -1,0 +1,141 @@
+.consent-content {
+  max-width: 100%;
+  margin: 0rem auto;
+}
+
+.wrapper {
+  max-width: 100%;
+  margin: 0rem auto;
+  padding: 2.5rem 2.4rem;
+}
+
+.loader_image {
+  display: block;
+  width: 27rem;
+  height: auto;
+  margin: 0 auto;
+}
+
+.spinner_image {
+  display: block;
+  width: 7rem;
+  height: auto;
+  margin: 40vh auto;
+}
+
+.wrapper_content {
+  max-width: 100%;
+
+  &_banner_image {
+    display: block;
+    width: 100%;
+    text-align: center;
+    height: auto;
+  }
+
+  &_error-text {
+    font-size: 1.4rem;
+    color: #000;
+    background-color: #fff;
+    font-style: normal;
+    text-align: center;
+    border-radius: 0.4rem;
+    margin-top: 0.5rem;
+    padding: 0.4rem 0.6rem;
+  }
+
+  &_login-text {
+    margin: 0;
+
+    &--heading {
+      font-family: "Nunitobold", "Roboto";
+      font-size: 2rem;
+      font-weight: bold;
+      letter-spacing: 0.025rem;
+      color: $color-grey-dark;
+      margin: 1rem 0 0.5rem;
+
+      @include heading-sub-heading-text;
+    }
+
+    &--sub-heading {
+      font-family: "Nunitoregular", "Roboto";
+      font-size: 1.4rem;
+      font-weight: normal;
+      letter-spacing: 0.018rem;
+      margin-top: 0;
+
+      @include heading-sub-heading-text;
+    }
+  }
+
+  &_text {
+    font-size: 1.3rem;
+    font-family: "Nunitoregular", "Roboto";
+    &-img {
+      float: left;
+      margin-right: 0.4rem;
+    }
+
+    &-sub {
+      padding-top: 0.5rem;
+    }
+  }
+}
+
+.wrapper_btn {
+  & {
+    margin-top: 2rem;
+  }
+
+  & a {
+    font-family: "Nunitobold", "Roboto", "Arial", sans-serif;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    padding: 1.2rem 1.2rem 0.8rem;
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    outline: none;
+  }
+
+  & button {
+    font-family: "Nunitobold", "Roboto", "Arial", sans-serif;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    padding: 1.2rem 1.2rem 0.8rem;
+    font-size: 2rem;
+    text-align: center;
+    border: solid 1px #5bc0de;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    outline: none;
+  }
+  & a:hover {
+    color: $color-white;
+  }
+  & a:last-child {
+    margin-bottom: 0;
+
+    &:hover {
+      color: $color-consent-blue;
+    }
+  }
+
+  &--blue {
+    background-color: $color-consent-blue;
+    color: $color-white;
+    border: transparent;
+  }
+  &--white {
+    color: $color-consent-blue;
+    background-color: $color-white;
+  }
+}

@@ -1,0 +1,16 @@
+$color-heading-red: #cf0202;
+$color-consent-blue: #027bfc;
+$color-white: #ffffff;
+$color-black: #000000;
+$color-grey: #b9b4b4;
+$color-grey-dark: #393939;
+
+@import "./components/mixins";
+
+@import "./components/base";
+
+@import "./components/typography";
+
+@import "../components/heading/heading";
+
+@import "../components/merchantDetails/merchantConsent/consent";

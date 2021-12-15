@@ -1,0 +1,187 @@
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  font-family: inherit; }
+
+html {
+  font-size: 62.5%;
+  min-height: 100%; }
+
+body {
+  font-size: 1.6rem;
+  font-weight: 100;
+  height: 100%;
+  margin: 0rem;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  font-family: 'Nunitoregular', 'Roboto', 'Arial', sans-serif;
+  line-height: normal;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: #000000; }
+
+@font-face {
+  font-family: 'Nunitoregular';
+  src: "./fonts/Nunito-Regular.woff2", "./fonts/Nunito-Regular.woff", "./fonts/Nunito-Regular.ttf";
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Nunitosemibold';
+  src: "./fonts/Nunito-SemiBold.woff2", "./fonts/Nunito-SemiBold.woff", "./fonts/Nunito-SemiBold.ttf";
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Nunitomedium';
+  src: "./fonts/Nunito-Medium.woff2", "./fonts/Nunito-Medium.woff", "./fonts/Nunito-Medium.ttf";
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Nunitobold';
+  src: "./fonts/Nunito-Bold.woff2", "./fonts/Nunito-Bold.woff", "./fonts/Nunito-Bold.ttf";
+  font-weight: normal;
+  font-style: normal; }
+
+.permission {
+  max-width: 100%;
+  margin: 0rem auto;
+  font-size: 1.6rem;
+  color: #fff;
+  padding: 1.6rem 0 1.6rem 1.6rem;
+  background-color: #cf0202;
+  box-shadow: 0 0 1.1rem 0.2rem #b9b4b4; }
+  .permission_text {
+    margin-left: 0rem; 
+    color: white;
+    font-weight: bold;
+  }
+  .permission_icon {
+    border: solid #fdfdfd;
+    border-width: 0 0.3rem 0.3rem 0;
+    display: inline-block;
+    padding: 0.4rem;
+    margin-right: 0.8rem;
+    border-radius: 0.2rem;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg); }
+
+.consent-content {
+  max-width: 100%;
+  margin: 0rem auto; }
+
+.wrapper {
+  max-width: 100%;
+  margin: 0rem auto;
+  padding: 2.5rem 2.4rem; }
+
+.loader_image {
+  display: block;
+  width: 27rem;
+  height: auto;
+  margin: 0 auto; }
+
+.spinner_image {
+  display: block;
+  width: 7rem;
+  height: auto;
+  margin: 40vh auto; }
+
+.wrapper_content {
+  max-width: 100%; }
+  .wrapper_content_banner_image {
+    display: block;
+    width: 100%;
+    text-align: center;
+    height: auto; }
+  .wrapper_content_error-text {
+    font-size: 1.4rem;
+    color: #000;
+    background-color: #fff;
+    font-style: normal;
+    text-align: center;
+    border-radius: 0.4rem;
+    margin-top: 0.5rem;
+    padding: 0.4rem 0.6rem; }
+  .wrapper_content_login-text {
+    margin: 0; }
+    .wrapper_content_login-text--heading {
+      font-family: "Nunitobold", "Roboto";
+      font-size: 2rem;
+      font-weight: bold;
+      letter-spacing: 0.025rem;
+      color: #393939;
+      margin: 1rem 0 0.5rem;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      color: #393939; }
+    .wrapper_content_login-text--sub-heading {
+      font-family: "Nunitoregular", "Roboto";
+      font-size: 1.4rem;
+      font-weight: normal;
+      letter-spacing: 0.018rem;
+      margin-top: 0;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      color: #393939; }
+  .wrapper_content_text {
+    font-size: 1.3rem; }
+    .wrapper_content_text-img {
+      float: left;
+      margin-right: 0.4rem; }
+    .wrapper_content_text-sub {
+      padding-top: 0.5rem; 
+      font-weight: bold;
+    }
+
+.wrapper_btn {
+  margin-top: 2rem; }
+
+.wrapper_btn a {
+  font-family: "Nunitobold", "Roboto", "Arial", sans-serif;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  padding: 1.2rem 1.2rem 0.8rem;
+  font-size: 2rem;
+  text-align: center;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  outline: none; }
+
+.wrapper_btn button {
+  font-family: "Nunitobold", "Roboto", "Arial", sans-serif;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  padding: 1.2rem 1.2rem 0.8rem;
+  font-size: 2rem;
+  text-align: center;
+  border: solid 1px #5bc0de;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  outline: none; }
+
+.wrapper_btn a:hover {
+  color: #ffffff; }
+
+.wrapper_btn a:last-child {
+  margin-bottom: 0; }
+  .wrapper_btn a:last-child:hover {
+    color: #027bfc; }
+
+.wrapper_btn--blue {
+  background-color: #027bfc;
+  color: #ffffff;
+  border: transparent; }
+
+.wrapper_btn--white {
+  color: #027bfc;
+  background-color: #ffffff; }

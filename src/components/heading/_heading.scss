@@ -1,0 +1,24 @@
+.permission {
+  max-width: 100%;
+  margin: 0rem auto;
+  font-size: 1.6rem;
+  color: #fff;
+  padding: 1.6rem 0 1.6rem 1.6rem;
+  background-color: $color-heading-red;
+  box-shadow: 0 0 1.1rem 0.2rem $color-grey;
+
+  &_text {
+    margin-left: 0rem;
+  }
+
+  &_icon {
+    border: solid #fdfdfd;
+    border-width: 0 0.3rem 0.3rem 0;
+    display: inline-block;
+    padding: 0.4rem;
+    margin-right: 0.8rem;
+    border-radius: 0.2rem;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+}
